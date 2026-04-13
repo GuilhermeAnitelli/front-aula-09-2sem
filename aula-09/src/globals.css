@@ -12,3 +12,16 @@
 main{
  @apply h-[20vh] m-5;
 }
+
+.tabelaProd{
+    @apply border-2 mx-auto my-0;
+
+    & th,td{
+        @apply border-2 text-center;
+    }
+
+    & tfoot tr td {
+        @apply col-span-2;
+    }
+
+}
